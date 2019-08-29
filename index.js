@@ -10,5 +10,5 @@
  }
  
  function returnNewFunctionOf(functionToBeCopied, thisValue) {
-   
+   newFn = functionToBeCopied
  }
