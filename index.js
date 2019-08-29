@@ -10,5 +10,6 @@
  }
  
  function returnNewFunctionOf(functionToBeCopied, thisValue) {
-   newFn = functionToBeCopied
+   newFn = functionToBeCopied.bind(thisValue);
+   return newFn;
  }
