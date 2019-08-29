@@ -1,4 +1,4 @@
 //Your code here
- function (fn) {
+ function justInvoke(fn) {
    return fn();
  }
